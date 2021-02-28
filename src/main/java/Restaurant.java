@@ -59,7 +59,7 @@ public class Restaurant {
         menu.remove(itemToBeRemoved);
     }
 
-    /*public int priceOfSelectedItems(String name1, String name2) {
+    public int priceOfSelectedItems(String name1, String name2) {
         Item item1 = new Item("Sweet corn soup", 149);
         Item item2 = new Item("Vegetable lasagne", 299);
         int item1NewPrice = 119;
@@ -68,7 +68,7 @@ public class Restaurant {
         item2.setPrice(item2NewPrice);
         int totalPrice = item1.getPrice() + item2.getPrice();
         return totalPrice;
-    }*/
+    }
 
     public void displayDetails(){
         System.out.println("Restaurant:"+ name + "\n"

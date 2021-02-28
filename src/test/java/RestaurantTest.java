@@ -39,14 +39,14 @@ class RestaurantTest {
 
     // Failure test cases not implemented as mentioned "fail case scenario/Exception scenario would be unnecessary" in the "Part 3: Adding a Feature using TDD"
 
-    /*@Test
+    @Test
     public void priceOfSelectedItems_should_return_total_order_price(){
         Restaurant restaurant = new Restaurant("Chai Break", "Kolkata", LocalTime.of(9,00), LocalTime.of(21,00));
         Item newItem1 = new Item("Sweet corn soup", 119);
         Item newItem2 = new Item("Vegetable lasagne", 269);
         int totalOrderValue = newItem1.getPrice() + newItem2.getPrice();
         assertThat(restaurant.priceOfSelectedItems(newItem1.getName(), newItem2.getName()), equalTo(totalOrderValue));
-    }*/
+    }
 
     //<<<<<<<<<<<<<<<<<<<<<<<<<OPEN/CLOSED>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
