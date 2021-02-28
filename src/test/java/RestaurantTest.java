@@ -37,6 +37,8 @@ class RestaurantTest {
         assertFalse(spyRestaurant.isRestaurantOpen());
     }
 
+    // Failure test cases not implemented as mentioned "fail case scenario/Exception scenario would be unnecessary" in the "Part 3: Adding a Feature using TDD"
+
     /*@Test
     public void priceOfSelectedItems_should_return_total_order_price(){
         Restaurant restaurant = new Restaurant("Chai Break", "Kolkata", LocalTime.of(9,00), LocalTime.of(21,00));
